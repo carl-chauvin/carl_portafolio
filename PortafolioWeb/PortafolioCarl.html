@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarlDevPortafolioWebsite</title>
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/DevLogo.png" alt="logo" title="CarlFrontEndDev"></a>
+        </div>
+        <button class="nav-togle" aria-label="toggle navigation"> <!--*aria label* define para que se usa un boton-->
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html"  class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="index.html#myexperience"  class="nav__link">Experiencia</a></li>
+                <li class="nav__item"><a href="index.html#aboutme"  class="nav__link">Sobre mi</a></li>
+                <li class="nav__item"><a href="index.html#work"  class="nav__link">Proyectos</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!--Introduccion (Inicio)-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Portafolio<strong class="strong">Project</strong></h1>
+        <p class="section__subtitle section__subtitle--intro"> Tecnologias Usadas: HTML, CSS & JavaScript</p>
+        <img src="img/CarlPortafolioPic.jpg" alt="proyecto_2" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>El proyecto Portafolio Web se enfoca en el diseño y la estructura visual de una pagina web personal utilizando HTML, CSS y JavaScript.</p>
+        <a href="https://blogproject1.netlify.app/" target="_blank"><img src="img/CarlPortafolioPic.jpg" alt="proyecto_2"></a>
+        <p>Este proyecto implica la creación de una pagina web personal con una interfaz atractiva y funcional desmostrando los diferentes proyectos realizados. Se trata de desarrollar una presentación visual agradable y accesible para los usuarios, utilizando HTML para la estructura del contenido y CSS para el diseño, y JavaScript para la parte interactiva de la pagina.</p>
+        <p>Incluye la disposición de elementos como encabezados, información personal del Desarrollador y proyectos realizados, con el fin de ofrecer una experiencia de usuario intuitiva y atractiva para los visitantes del sitio.</p>
+    </div>
+    
+    <!--Footer-->
+
+    <footer class="footer">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="footer__link" target="_blank">chauvin239@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list--item"> 
+                <a href="www.linkedin.com/in/carl-henry-chauvin-bouquet-66aa16204" class="social-list--link" target="_blank">
+                    <img src="img/linkedin.png" alt="linkedin">
+                </a>
+            </li>
+
+            <li class="social-list--item"> 
+                <a href="https://github.com/carl-chauvin" class="social-list--link" target="_blank">
+                    <img src="img/github.png" alt="linkedin">
+                </a>
+            </li>
+
+            <li class="social-list--item"> 
+                <a href="https://www.youtube.com/@hello_code/videos" class="social-list--link" target="_blank">
+                    <img src="img/youtube.png" alt="linkedin">
+                </a>
+            </li>
+
+
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
